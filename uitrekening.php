@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<center>
     <div class="phpindex-text">
-        <h1>Tafles berekenen.</h1>
+        <h1>Tafels berekenen.</h1>
         <p>Hier kunt u tafels berekenen!</p>
     </div>
   
 <div class="submit-button">    
     <form action="index.html">
-        <input type="submit" value="Opnieuw iets berekenen">
+        <input type="submit" id="submitphp" value="Opnieuw iets berekenen">
     </form>
 </div>
     
@@ -50,10 +49,5 @@
         ?>
     </div>
         <br><br><br>
-    
-</center>
-
-
-
 </body>
 </html>
