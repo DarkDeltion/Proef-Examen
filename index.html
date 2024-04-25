@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tafels</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+<center>
+    <div class="index-text">
+        <h1>Tafles berekenen!</h1>
+        <p>Hier kunt u tafels berekenen!</p> 
+
+        <br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+    <div class="berekening">
+        <form action="uitrekening.php" method="post">
+            <div class="tafel">
+
+                <label for="tafel">Tafel van:</label>
+                <input type="number" id="tafel" name="tafel" placeholder="Voer een nummer in" required>
+
+            </div> <br> <br>
+
+            <div class="vanaf">
+
+                <label for="vanaf">Vanaf: </label>
+                <input type="number" id="vanaf" name="vanaf" placeholder="Voer een nummer in" required>
+
+            </div> <br> <br>
+
+            <div class="tm">
+
+                <label for="tm">T/M: </label>
+                <input type="number" id="tm" name="tm" placeholder="Voer een nummer in" required>
+
+            </div> <br> <br>
+
+            <div class="submit">
+                <input type="submit" id="submit" name="submit" value="uitrekenen">
+            </div>
+        </form>
+    </div>
+</center>
+</body>
+</html>
