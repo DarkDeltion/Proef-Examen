@@ -11,12 +11,8 @@
         <h1>Tafels berekenen.</h1>
         <p>Hier kunt u tafels berekenen!</p>
     </div>
-  
-<div class="submit-button">    
-    <form action="index.html">
-        <input type="submit" id="submitphp" value="Opnieuw iets berekenen">
-    </form>
-</div>
+    
+    <br><br>
     
     <div class="phpcode">
         <?php
@@ -48,6 +44,14 @@
 
         ?>
     </div>
-        <br><br><br>
+
+    <br><br><br>
+
+    <div class="phpsubmitblock">  
+        <form action="index.html">
+            <input type="submit" id="submitphp" value="Opnieuw iets berekenen">
+        </form>
+    </div>
+
 </body>
 </html>
